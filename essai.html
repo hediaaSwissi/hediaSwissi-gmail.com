@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="01.css">
+    <script src="form.js"></script>
+    
+</head>
+<body onload="alert('passsez une bonne journee')">
+age<input type="range" id="age" required onchange="document.getElementById('agge').innerHTML=document.getElementById('age').value" ><span id="agge"></span> 
+<br><br>
+Nom et Prénom<input type="text" id="n" name="nom" onfocus="mf(n)" onblur="mf3()" onkeypress="mf5()">
+<p id="bns" onmouseover="mf2">Bienvinue a notre site </p>
+<p id="co">ce text change de couleur</p>
+<button onclick="mf4('co')">here</button>
+<br><br>
+Adress : <input type="text" id="s" onkeyup="mf6()">
+<br><br>
+message <input type="text" id="msg" oninput="mf7()">
+<p id="p01"></p>
+
+<br><br>
+age <input type="text" id="aggge" onblur="mf8()">  
+<br><br>
+<input type="text" id="af">
+<button id="bu" onclick="mf9(af)">affiche</button>
+<button id="b" onclick="mf10(af)">pair</button>
+<input type="text" id="ras"> <br><br>
+<button id="b0" onclick="mf11()">calcue le rasine careé</button>
+<input type="text" id="aa">
+<br><br><br>
+<button id="b01" onclick="mf12()">calcue la valeur abs </button>
+<input type="text" id="a"> 
+<br><br>
+<button id="c" onclick="mf13()">chaine</button>
+<input type="text" id="aaa">
+<br><br>
+<button  onclick="mf14()">round</button>
+<input type="text" id="ha">
+<br><br>
+<button  onclick="mf15()">trunc</button>
+<input type="text" id="hhea">
+<br><br>
+<button onclick="mf16()">random</button>
+<input type="text" id="y">
+<br><br>
+<button onclick="mf17()">random01</button>
+<input type="text" id="yo">
+<br><br>
+<button onclick="mf18()" >Afficher caractère</button>
+<br><br>
+<button onclick="mf19()">Position première occurrence</button>
+<br><br>
+<button onclick="mf20()">Position dernière occurrence</button><br><br>
+<button onclick="mf21()">Remplacer</button><br><br>
+<button onclick="mf22()">Majuscule</button><br><br>
+<button onclick="mf23()">Miniscule</button><br><br>
+<button onclick="mf24()">Supprmier espace</button><br><br>
+<button onclick="mf25()">Sous chaine</button><br><br>
+<button onclick="mf26()">Code</button><br><br>
+<button onclick="mf27()">Code2</button><br><br>
+<button onclick="mf28()">vérifier nombre</button><br><br>
+<button onclick="mf29()">convertir chaine en un nombre</button><br><br>
+<button onclick="mf30()">convertir chaine en un réel</button><br><br>
+<button onclick="mf31()">convertir chaine en un entier</button><br><br>
+<button onclick="mf32()">convertir nombre en une chaine</button><br><br>
+<button onclick="mf33()">Date aujourd'hui</button><br><br>
+<button onclick="mf34()">Afficher détail date aujourd'hui</button><br><br>
+la journée<span id="z0"></span>
+le mois<span id="z1"></span>
+l'année<span id="z2"></span>
+<button onclick="mf35()">Nouvelle date</button>
+</body>
+</html>

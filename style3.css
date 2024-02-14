@@ -1,0 +1,34 @@
+h6{
+        animation: glissement 4s infinite ease-out  0s  alternate ;
+     
+    }
+
+ @keyframes glissement{
+         from {
+            margin-left: 100%;
+            width:100%;
+        }
+    
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+    
+h2{
+  animation: anmi 3s infinite forwards running;
+  
+
+
+
+}
+@keyframes anmi {
+  from {color:rgb(253, 34, 5);}
+
+  
+  to {color: greenyellow;}
+  
+}
+#hover:hover{
+  color: red;
+}

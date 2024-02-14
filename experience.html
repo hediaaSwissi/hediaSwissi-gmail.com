@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            vos Coordonnées
+        </legend>
+        <form method="POST" action="sauvegarde.html" name="formulaire">
+            Nom : <input type="text" name="nom" size="20" maxlength="12" placeholder="votre nom"><br><br>
+            Prénom :  <input type="text" name="prénom" size="20" maxlength="12" placeholder="votre prénom"><br><br>
+            Date de naissance : <input type="date" name="date_naiss"><br><br>
+            Mail:<input type="email" name="email" required  placeholder="Votre mail"><br><br>
+            votre site:<input type="text" name="site" required><br><br>
+            Code : <input type="text" name="code" required><br><br>
+            Gener: <BR><input type="radio" name="R1" value="V3"checked >Homme <BR>
+                <input type="radio" name="R1" value="V3"checked >femme <br>
+                Pays: 
+                <select name="p" id="">
+                  <option>tunisie</option>
+                  <option>japon</option>
+                  <option>palestine</option>
+
+                </select>
+
+    </fieldset>
+<fieldset>
+   <legend>vos gouts</legend>
+    <input type="checkbox" name="c1" value="ON">Tarte aux fraises a la crème d'amande <br>
+    <input type="checkbox" name="c2" value="ON">Tarte aux punes <br>
+    <input type="checkbox" name="c3" value="ON">tarte rustique aux mirablles de Lorraine noisette <br>
+    <textarea name="s1" cols="20" rows="3" placeholder="Décriver vos gouts en details"></textarea> 
+</fieldset>
+<fieldset>
+    <legend>Envoyer nous votre photo</legend>
+    <input type="file" value="choisir un ficher" name="b1"> <br> <br>  
+    <input type="submit" name="b1" value="effacer">
+    <input type="submit" name="b1" value="envoyer">
+
+
+
+
+</fieldset>
+</body>
+</html>
